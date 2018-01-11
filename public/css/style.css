@@ -3,7 +3,7 @@
 	Theme URI: http://template.crypto.itembridge.com/
 	Author: InfoStyle
 	Author URI: http://themeforest.net/user/InfoStyle
-	Description: 
+	Description:
 	Version: 1.0.0
 	License: ThemeForest Regular & Extended License
 	License URI: http://themeforest.net/licenses/regular_extended
@@ -189,7 +189,7 @@ footer.container {
        Main
 ------------------*/
 body {
-  background: #182025 url(../img/pattern.png) 0 0 repeat;
+  background: #000000;
   color: #fdfdfd;
   font-family: Source Code Pro;
   font-size: 30px;
@@ -216,11 +216,11 @@ body:after, body:before {
 }
 body:after {
   content: '';
-  background: #182025 url(../img/pattern.png) 0 0 repeat;
+  background: #000000;
   z-index: -1;
 }
 body:before {
-  background: url(../img/cursor.svg) 50% 50% no-repeat;
+  background: #000000;
   content: '';
 }
 
@@ -240,7 +240,7 @@ body.preloader:after {
 }
 @media (max-width: 500px) {
   body:before {
-    background: url(../img/finger.svg) 50% 50% no-repeat;
+    background: #000000;
     content: '';
   }
 }
